@@ -62,6 +62,7 @@ To do this:
 - Attempt to observe the ticket again as "john" and note whether you can view or change it.
 
 <img width="461" height="362" alt="Screenshot 2026-02-27 221342" src="https://github.com/user-attachments/assets/ddb6d164-9fb5-4e3a-ae92-274099aee6a3" />
+<img width="622" height="218" alt="Screenshot 2026-03-01 181306" src="https://github.com/user-attachments/assets/715bb78b-698c-4ba9-ab10-18d8b3be2d65" />
 <img width="640" height="260" alt="Screenshot 2026-02-27 212127" src="https://github.com/user-attachments/assets/36a84d49-3736-4a8e-856e-94215669488e" />
 <img width="639" height="253" alt="Screenshot 2026-02-27 212235" src="https://github.com/user-attachments/assets/26ff2cc2-f00d-48b9-a878-0dbbbf544c10" />
 <img width="946" height="436" alt="Screenshot 2026-02-27 213429" src="https://github.com/user-attachments/assets/ff1fe950-2759-4482-a9c5-c3369dcfef9c" />
