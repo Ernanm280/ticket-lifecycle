@@ -116,7 +116,7 @@ To do this:
   - Subject: CFO’s Laptop Will No Longer Turn On
   - Details: Provide a brief description of the issue.
 
-<img width="608" alt="Screenshot 2025-01-23 at 12 59 14 PM" src="https://github.com/user-attachments/assets/83f8ebdb-9ddd-4974-bb61-5c2f4ee22e09" />
+<img width="803" height="960" alt="Screenshot 2026-03-01 172716" src="https://github.com/user-attachments/assets/19b2d4ab-c6ca-452f-a7c6-8af68fab8c1e" />
 
 **As a Help Desk Agent (John)**
 - Navigate to the Admin/Analyst Login Page: http://localhost/osTicket/scp/login.php
@@ -131,11 +131,11 @@ To do this:
   - Department: Support
 - Work the ticket to completion.
 
-<img width="687" alt="Screenshot 2025-01-23 at 12 59 51 PM" src="https://github.com/user-attachments/assets/a852b748-90c1-4e34-b160-92d4f08c8f39" />
-<img width="671" alt="Screenshot 2025-01-23 at 1 00 15 PM" src="https://github.com/user-attachments/assets/0d9f1fb3-dde0-424d-9a31-05e10ee44599" />
-<img width="549" alt="Screenshot 2025-01-23 at 1 00 34 PM" src="https://github.com/user-attachments/assets/cc0c62c9-9643-441d-8783-607d14291194" />
-<img width="684" alt="Screenshot 2025-01-23 at 1 00 57 PM" src="https://github.com/user-attachments/assets/10ac4f58-82c4-4d72-adc6-d5193358128f" />
-<img width="513" alt="Screenshot 2025-01-23 at 1 01 21 PM" src="https://github.com/user-attachments/assets/8204ce0e-db7e-4b70-a625-01950ef3de5c" />
+<img width="948" height="284" alt="Screenshot 2026-03-01 172814" src="https://github.com/user-attachments/assets/e924a27b-1fb6-47f0-a0e9-9984c6cd0551" />
+<img width="909" height="443" alt="Screenshot 2026-03-01 173132" src="https://github.com/user-attachments/assets/2dceaaa1-469b-4cd1-8b72-ab2711716c8c" />
+<img width="982" height="431" alt="Screenshot 2026-03-01 173459" src="https://github.com/user-attachments/assets/028292b1-a61d-421c-8338-e0a25562e2c5" />
+<img width="960" height="781" alt="Screenshot 2026-03-01 175356" src="https://github.com/user-attachments/assets/dc09ccbe-9407-4a50-b033-fe6dce9dcc2b" />
+<img width="657" height="235" alt="Screenshot 2026-03-01 175625" src="https://github.com/user-attachments/assets/bcb9d58f-58de-4167-b7e1-7e82a5a86d87" />
 
 <h2>Purpose </h2>
 This repository serves as a practical guide and example of the lifecycle of a ticket within the osTicket system. By following these steps, users can better understand ticket creation, assignment, and resolution workflows in a help desk environment.
