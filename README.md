@@ -82,7 +82,7 @@ To do this:
 - Navigate to the End Users osTicket URL: http://localhost/osTicket
 - Log in as an end-user.
 - Create a new ticket with the following details:
-  - Subject: Accounting Department Needs Adobe Upgrade, Broken
+  - Subject: Adobe not opening invoices
   - Details: Provide a brief description of the issue.
 
 <img width="833" height="968" alt="Screenshot 2026-02-27 223047" src="https://github.com/user-attachments/assets/8cbea6f2-9e21-4b4c-b190-4f4163c254da" />
