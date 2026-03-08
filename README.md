@@ -139,4 +139,4 @@ To do this:
 <img width="657" height="235" alt="Screenshot 2026-03-01 175625" src="https://github.com/user-attachments/assets/bcb9d58f-58de-4167-b7e1-7e82a5a86d87" />
 
 <h2>Purpose </h2>
-This repository serves as a practical guide and example of the lifecycle of a ticket within the osTicket system. By following these steps, users can better understand ticket creation, assignment, and resolution workflows in a help desk environment.
+This repository documents the lifecycle of a support ticket within the osTicket help desk system, demonstrating how technical issues are managed in a structured IT support environment. The project walks through the full ticket workflow, including ticket creation, categorization, assignment to support agents, communication with users, and final resolution.
