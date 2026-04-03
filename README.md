@@ -48,7 +48,7 @@ Prevents tickets from being automatically routed to an unused department, ensuri
 1. Navigate to the End Users osTicket URL: [http://localhost/osTicket](http://localhost/osTicket)
 2. Log in as an end-user
 3. Create a new ticket with the following details:
-  - Subject: Entire Mobile/Online Banking System is Down
+  - Subject: Entire Mobile/Online Banking System is down
   - Details: (Provide a brief description of the issue)
  
 **Why this matters**:
@@ -59,11 +59,16 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
 **As a Help Desk Agent (John) - Ticket Triage**
 1. Navigate to the Admin/Analyst Login Page: http://localhost/osTicket/scp/login.php
 2. Log in as "john"
+
+<img width="461" height="362" alt="Screenshot 2026-02-27 221342" src="https://github.com/user-attachments/assets/ddb6d164-9fb5-4e3a-ae92-274099aee6a3" />
+
 3. Locate the newly created ticket and observe its properties:
   - Priority
   - Department
   - SLA
   - Assigned To
+
+<img width="946" height="436" alt="Screenshot 2026-02-27 213429" src="https://github.com/user-attachments/assets/ff1fe950-2759-4482-a9c5-c3369dcfef9c" />
 
 **Set the ticket properties as follows**:
   - Priority → Sev-A (1 hour SLA)
@@ -74,15 +79,14 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
 - Sev-A is used for critical outages impacting business operations
 - Assigning to a department ensures the correct team handles the issue
 
-<img width="461" height="362" alt="Screenshot 2026-02-27 221342" src="https://github.com/user-attachments/assets/ddb6d164-9fb5-4e3a-ae92-274099aee6a3" />
-<img width="622" height="218" alt="Screenshot 2026-03-01 181306" src="https://github.com/user-attachments/assets/715bb78b-698c-4ba9-ab10-18d8b3be2d65" />
-<img width="640" height="260" alt="Screenshot 2026-02-27 212127" src="https://github.com/user-attachments/assets/36a84d49-3736-4a8e-856e-94215669488e" />
-<img width="639" height="253" alt="Screenshot 2026-02-27 212235" src="https://github.com/user-attachments/assets/26ff2cc2-f00d-48b9-a878-0dbbbf544c10" />
-<img width="946" height="436" alt="Screenshot 2026-02-27 213429" src="https://github.com/user-attachments/assets/ff1fe950-2759-4482-a9c5-c3369dcfef9c" />
 
-**Access Control Observation**
+<img width="640" height="260" alt="Screenshot 2026-02-27 212127" src="https://github.com/user-attachments/assets/36a84d49-3736-4a8e-856e-94215669488e" />
+<img width="622" height="218" alt="Screenshot 2026-03-01 181306" src="https://github.com/user-attachments/assets/715bb78b-698c-4ba9-ab10-18d8b3be2d65" />
+
+**Access Control Observation** 
 
 After assigning the ticket to a different department, the original agent may lose access since osTicket uses department-based access control. This means agents can only manage a ticket within their assigned department. 
+
 
 **As a Help Desk Agent (Jane) - Resolution**
 1. Log in as "jane."
@@ -90,7 +94,7 @@ After assigning the ticket to a different department, the original agent may los
 3. Provide updates to the user
 4. Resolve and close the ticket
 
-Purpose: Demonstrates full lifecycle completion, including communication and resolution.
+**Purpose**: Demonstrates full lifecycle completion, including communication and resolution.
 
 <img width="425" height="335" alt="Screenshot 2026-02-27 221709" src="https://github.com/user-attachments/assets/4c734c5a-8593-4cb9-a99f-eefafb483f32" />
 <img width="971" height="268" alt="Screenshot 2026-02-27 220141" src="https://github.com/user-attachments/assets/fe362cf6-6018-4559-936b-90f90af81e9c" />
@@ -151,9 +155,11 @@ This issue affects a single department and does not halt overall business operat
   - Department
   - SLA
   - Assigned To
+
  **Set the ticket properties as follows**:
   - Priority → Sev-B (or Sev-A depending on urgency)
   - Department → Support Department
+
 **Why**:
 Although it is a single device, it belongs to a high-level executive, making it business-critical.
 
