@@ -59,12 +59,13 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
 **As a Help Desk Agent (John) - Ticket Triage**
 1. Navigate to the Admin/Analyst Login Page: http://localhost/osTicket/scp/login.php
 2. Log in as "john"
-3. **Locate the newly created ticket and observe its properties**:
+3. Locate the newly created ticket and observe its properties:
   - Priority
   - Department
   - SLA
   - Assigned To
- **Set the ticket properties as follows**:
+
+**Set the ticket properties as follows**:
   - Priority → Sev-A (1 hour SLA)
   - Department → Online Banking Department
 - Attempt to observe the ticket again as "john" and note whether you can view or change it
@@ -80,6 +81,7 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
 <img width="946" height="436" alt="Screenshot 2026-02-27 213429" src="https://github.com/user-attachments/assets/ff1fe950-2759-4482-a9c5-c3369dcfef9c" />
 
 **Access Control Observation**
+
 After assigning the ticket to a different department, the original agent may lose access since osTicket uses department-based access control. This means agents can only manage a ticket within their assigned department. 
 
 **As a Help Desk Agent (Jane) - Resolution**
@@ -98,19 +100,11 @@ Purpose: Demonstrates full lifecycle completion, including communication and res
 <h3>Scenario 2: Accounting Department Needs Adobe Upgrade, Broken</h3>
 
 **As an End-User**
-- Navigate to the End Users osTicket URL: http://localhost/osTicket
-- Log in as an end-user.
-- Create a new ticket with the following details:
+1. Navigate to the End Users osTicket URL: http://localhost/osTicket
+2. Log in as an end-user.
+3. Create a new ticket with the following details:
   - Subject: Adobe not opening invoices
   - Details: Provide a brief description of the issue.
- 
-  **Ticket Handling**
-  Actions taken:
-  - Set Priority → Sev-B (4 hour SLA)
-  - Assign to → Support Department
-
-Why:
-This issue affects a single department and does not halt overall business operations, making it medium priority.
 
 <img width="833" height="968" alt="Screenshot 2026-02-27 223047" src="https://github.com/user-attachments/assets/8cbea6f2-9e21-4b4c-b190-4f4163c254da" />
 
@@ -123,9 +117,12 @@ This issue affects a single department and does not halt overall business operat
   - SLA
   - Assigned To
 - Set the ticket properties as follows:
-  - Priority: Sev-B (4 hours, 24/7)
-  - Department: Support
-- Work the ticket to completion.
+  - Priority → Sev-B (4 hours SLA)
+  - Department → Support Department
+
+**Why**:
+
+This issue affects a single department and does not halt overall business operations, making it medium priority.
 
 <img width="461" height="362" alt="Screenshot 2026-02-27 221342" src="https://github.com/user-attachments/assets/d5f46852-101f-4b55-91cc-8bb76fd37a10" />
 <img width="950" height="584" alt="Screenshot 2026-02-27 223255" src="https://github.com/user-attachments/assets/5c1c07ff-278b-416a-aefd-ab80735a1841" />
@@ -138,26 +135,27 @@ This issue affects a single department and does not halt overall business operat
 <h3>Scenario 3: CFO’s Laptop Will No Longer Turn On</h3>
 
 **As an End-User**
-- Navigate to the End Users osTicket URL: http://localhost/osTicket
-- Log in as an end-user.
-- Create a new ticket with the following details:
+1. Navigate to the End Users osTicket URL: http://localhost/osTicket
+2. Log in as an end-user
+3. Create a new ticket with the following details:
   - Subject: CFO’s Laptop Will No Longer Turn On
-  - Details: Provide a brief description of the issue.
+  - Details: (Provide a brief description of the issue)
 
 <img width="803" height="960" alt="Screenshot 2026-03-01 172716" src="https://github.com/user-attachments/assets/19b2d4ab-c6ca-452f-a7c6-8af68fab8c1e" />
 
 **As a Help Desk Agent (John)**
-- Navigate to the Admin/Analyst Login Page: http://localhost/osTicket/scp/login.php
-- Log in as "John."
-- Locate the newly created ticket and observe its properties:
+1. Navigate to the Admin/Analyst Login Page: http://localhost/osTicket/scp/login.php
+2. Log in as "John"
+3. Locate the newly created ticket and observe its properties:
   - Priority
   - Department
   - SLA
   - Assigned To
-- Set the ticket properties as follows:
-  - Priority: Sev-B (4 hours, 24/7)
-  - Department: Support
-- Work the ticket to completion.
+ **Set the ticket properties as follows**:
+  - Priority → Sev-B (or Sev-A depending on urgency)
+  - Department → Support Department
+**Why**:
+Although it is a single device, it belongs to a high-level executive, making it business-critical.
 
 <img width="948" height="284" alt="Screenshot 2026-03-01 172814" src="https://github.com/user-attachments/assets/e924a27b-1fb6-47f0-a0e9-9984c6cd0551" />
 <img width="909" height="443" alt="Screenshot 2026-03-01 173132" src="https://github.com/user-attachments/assets/2dceaaa1-469b-4cd1-8b72-ab2711716c8c" />
