@@ -45,9 +45,9 @@ Prevents tickets from being automatically routed to an unused department, ensuri
 <h3> Scenario 1: Entire Mobile/Online Banking System is Down</h3>
 
 **As an End-User**
-- Navigate to the End Users osTicket URL: [http://localhost/osTicket](http://localhost/osTicket)
-- Log in as an end-user
-- Create a new ticket with the following details:
+1. Navigate to the End Users osTicket URL: [http://localhost/osTicket](http://localhost/osTicket)
+2. Log in as an end-user
+3. Create a new ticket with the following details:
   - Subject: Entire Mobile/Online Banking System is Down
   - Details: (Provide a brief description of the issue)
  
