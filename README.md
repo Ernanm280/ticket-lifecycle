@@ -29,10 +29,15 @@ End Users osTicket URL: [End Users Ticketing Page](http://localhost/osTicket)
 
 <h2>Before you Start</h2>
 
-Disable/Delete Maintenance Department so tickets don't end up there.
+**Disable/Delete Maintenance Department so tickets don't end up there**
+
 To do this:
-  - Navigate to Admin Panel -> Agents -> Departments.
-  - Click on Maintenance and delete
+  - Navigate to Admin Panel → Agents → Departments
+  - Click on **Maintenance** and **delete**
+
+**Why:**
+Prevents tickets from being automatically routed to an unused department, ensuring proper ticket flow and visibility.
+
 <img width="945" height="382" alt="Screenshot 2026-02-27 203904" src="https://github.com/user-attachments/assets/e7c484ea-61ae-4dec-8ec6-268e32d3d2cd" />
 
 <h2>Scenarios</h2>
@@ -41,25 +46,32 @@ To do this:
 
 **As an End-User**
 - Navigate to the End Users osTicket URL: [http://localhost/osTicket](http://localhost/osTicket)
-- Log in as an end-user.
+- Log in as an end-user
 - Create a new ticket with the following details:
   - Subject: Entire Mobile/Online Banking System is Down
-  - Details: Provide a brief description of the issue.
+  - Details: (Provide a brief description of the issue)
+ 
+**Why this matters**:
+This stimulates a high-impact outage, affecting multiple users and requiring immediate escalation.
  
 <img width="833" height="961" alt="Screenshot 2026-02-27 204852" src="https://github.com/user-attachments/assets/2b46feff-4292-48fb-ac4d-b6d736fef038" />
 
-**As a Help Desk Agent (John)**
-- Navigate to the Admin/Analyst Login Page: http://localhost/osTicket/scp/login.php
-- Log in as "john."
-- Locate the newly created ticket and observe its properties:
+**As a Help Desk Agent (John) - Ticket Triage**
+1. Navigate to the Admin/Analyst Login Page: http://localhost/osTicket/scp/login.php
+2. Log in as "john"
+3. **Locate the newly created ticket and observe its properties**:
   - Priority
   - Department
   - SLA
   - Assigned To
-- Set the ticket properties as follows:
-  - Priority: Sev-A (1 hour, 24/7)
-  - Department: Online Banking Department
-- Attempt to observe the ticket again as "john" and note whether you can view or change it.
+ **Set the ticket properties as follows**:
+  - Priority → Sev-A (1 hour SLA)
+  - Department → Online Banking Department
+- Attempt to observe the ticket again as "john" and note whether you can view or change it
+
+**Why**: 
+- Sev-A is used for critical outages impacting business operations
+- Assigning to a department ensures the correct team handles the issue
 
 <img width="461" height="362" alt="Screenshot 2026-02-27 221342" src="https://github.com/user-attachments/assets/ddb6d164-9fb5-4e3a-ae92-274099aee6a3" />
 <img width="622" height="218" alt="Screenshot 2026-03-01 181306" src="https://github.com/user-attachments/assets/715bb78b-698c-4ba9-ab10-18d8b3be2d65" />
@@ -67,9 +79,16 @@ To do this:
 <img width="639" height="253" alt="Screenshot 2026-02-27 212235" src="https://github.com/user-attachments/assets/26ff2cc2-f00d-48b9-a878-0dbbbf544c10" />
 <img width="946" height="436" alt="Screenshot 2026-02-27 213429" src="https://github.com/user-attachments/assets/ff1fe950-2759-4482-a9c5-c3369dcfef9c" />
 
-**As a Help Desk Agent (Jane)**
-- Log in as "jane."
-- Work the ticket to completion.
+**Access Control Observation**
+After assigning the ticket to a different department, the original agent may lose access since osTicket uses department-based access control. This means agents can only manage a ticket within their assigned department. 
+
+**As a Help Desk Agent (Jane) - Resolution**
+1. Log in as "jane."
+2. Investigate and troubleshoot the issue
+3. Provide updates to the user
+4. Resolve and close the ticket
+
+Purpose: Demonstrates full lifecycle completion, including communication and resolution.
 
 <img width="425" height="335" alt="Screenshot 2026-02-27 221709" src="https://github.com/user-attachments/assets/4c734c5a-8593-4cb9-a99f-eefafb483f32" />
 <img width="971" height="268" alt="Screenshot 2026-02-27 220141" src="https://github.com/user-attachments/assets/fe362cf6-6018-4559-936b-90f90af81e9c" />
@@ -84,6 +103,14 @@ To do this:
 - Create a new ticket with the following details:
   - Subject: Adobe not opening invoices
   - Details: Provide a brief description of the issue.
+ 
+  **Ticket Handling**
+  Actions taken:
+  - Set Priority → Sev-B (4 hour SLA)
+  - Assign to → Support Department
+
+Why:
+This issue affects a single department and does not halt overall business operations, making it medium priority.
 
 <img width="833" height="968" alt="Screenshot 2026-02-27 223047" src="https://github.com/user-attachments/assets/8cbea6f2-9e21-4b4c-b190-4f4163c254da" />
 
