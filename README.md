@@ -108,7 +108,7 @@ After assigning the ticket to a different department, the original agent may los
 2. Log in as an end-user.
 3. Create a new ticket with the following details:
   - Subject: Adobe not opening invoices
-  - Details: Provide a brief description of the issue.
+  - Details: (Provide a brief description of the issue)
 
 <img width="833" height="968" alt="Screenshot 2026-02-27 223047" src="https://github.com/user-attachments/assets/8cbea6f2-9e21-4b4c-b190-4f4163c254da" />
 
@@ -120,19 +120,28 @@ After assigning the ticket to a different department, the original agent may los
   - Department
   - SLA
   - Assigned To
+ 
+<img width="461" height="362" alt="Screenshot 2026-02-27 221342" src="https://github.com/user-attachments/assets/d5f46852-101f-4b55-91cc-8bb76fd37a10" />
+<img width="950" height="584" alt="Screenshot 2026-02-27 223255" src="https://github.com/user-attachments/assets/5c1c07ff-278b-416a-aefd-ab80735a1841" />
+
 - Set the ticket properties as follows:
   - Priority → Sev-B (4 hours SLA)
   - Department → Support Department
 
-**Why**:
+**The help desk updates the ticket's SLA to outline the severity of the issue (Sev-B). This helps prioritize the ticket based on business impact and ensures it is handled within the expected time.**
 
-This issue affects a single department and does not halt overall business operations, making it medium priority.
-
-<img width="461" height="362" alt="Screenshot 2026-02-27 221342" src="https://github.com/user-attachments/assets/d5f46852-101f-4b55-91cc-8bb76fd37a10" />
-<img width="950" height="584" alt="Screenshot 2026-02-27 223255" src="https://github.com/user-attachments/assets/5c1c07ff-278b-416a-aefd-ab80735a1841" />
 <img width="801" height="398" alt="Screenshot 2026-02-27 223530" src="https://github.com/user-attachments/assets/12c374b0-fff5-4f37-93f5-0956ac357741" />
+
+**A response is initiated to the end user acknowledging the issue. The help desk identifies a possible cause (outdated Adobe Acrobat) and informs the end user that they will verify and update the software. This sets the expectation for a follow-up demonstrating an open line of communication.**
+
 <img width="955" height="634" alt="Screenshot 2026-02-27 223804" src="https://github.com/user-attachments/assets/237711b3-8864-4e35-86df-9d4e2ab823a1" />
+
+**Once the issue is resolved, the helpdesk confirmed that Adobe Acrobat has been succesfully updated and tested. The end user was asked to verify functionality to ensure the issue has been resolved.**
+
 <img width="946" height="619" alt="Screenshot 2026-02-27 223852" src="https://github.com/user-attachments/assets/41f89637-2e96-4acf-b6a0-15d6d5e3609e" />
+
+**The ticket is marked as resolved, meaning the ticket is now closed.**
+
 <img width="803" height="316" alt="Screenshot 2026-02-27 224103" src="https://github.com/user-attachments/assets/1c62d1a2-82cd-4718-8bd4-04129c63c12a" />
 
 
