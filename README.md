@@ -97,9 +97,16 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
 **Purpose**: Demonstrates full lifecycle completion, including communication and resolution.
 
 <img width="425" height="335" alt="Screenshot 2026-02-27 221709" src="https://github.com/user-attachments/assets/4c734c5a-8593-4cb9-a99f-eefafb483f32" />
-<img width="971" height="268" alt="Screenshot 2026-02-27 220141" src="https://github.com/user-attachments/assets/fe362cf6-6018-4559-936b-90f90af81e9c" />
-<img width="805" height="324" alt="Screenshot 2026-02-27 220431" src="https://github.com/user-attachments/assets/5ac9b35d-5bfb-4bad-9c7a-06cd372b6143" />
 
+**The Ticket was escalated to the SysAdmins team, where the root cause was identified as a configuration issue that caused the online banking system to go down.**
+
+<img width="971" height="268" alt="Screenshot 2026-02-27 220141" src="https://github.com/user-attachments/assets/fe362cf6-6018-4559-936b-90f90af81e9c" />
+
+**After restarting the server, the service was successfully restored, allowing the workflow to resume.**
+
+
+<img width="805" height="324" alt="Screenshot 2026-02-27 220431" src="https://github.com/user-attachments/assets/5ac9b35d-5bfb-4bad-9c7a-06cd372b6143" />
+**The fix was confirmed with the user, and the ticket was marked as resolved and closed.**
 
 <h3>Scenario 2: Accounting Department Needs Adobe Upgrade, Broken</h3>
 
