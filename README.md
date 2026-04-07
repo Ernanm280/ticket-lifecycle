@@ -128,11 +128,11 @@ After assigning the ticket to a different department, the original agent may los
   - Priority → Sev-B (4 hours SLA)
   - Department → Support Department
 
-**The help desk updates the ticket's SLA to outline the severity of the issue (Sev-B). This helps prioritize the ticket based on business impact and ensures it is handled within the expected time.**
+**Adjusted the Service Level Agreement (SLA) to Sev-B based on the ticket's business impact. This ensures the issue is prioritized correctly and handled within defined response and resolution timeframes**
 
 <img width="801" height="398" alt="Screenshot 2026-02-27 223530" src="https://github.com/user-attachments/assets/12c374b0-fff5-4f37-93f5-0956ac357741" />
 
-**A response is initiated to the end user acknowledging the issue. The help desk identifies a possible cause (outdated Adobe Acrobat) and informs the end user that they will verify and update the software. This sets the expectation for a follow-up demonstrating an open line of communication.**
+**Acknowledged the user's issue and provided a preliminary assessment. Identified that the problem may be due to an outdated version of Adobe Acrobat and communicated the plan to verify and perform an update. Clear expectations were set to ensure commitment and reliability.**
 
 <img width="955" height="634" alt="Screenshot 2026-02-27 223804" src="https://github.com/user-attachments/assets/237711b3-8864-4e35-86df-9d4e2ab823a1" />
 
