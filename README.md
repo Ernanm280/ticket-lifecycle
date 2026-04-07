@@ -4,7 +4,7 @@
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
 
-This document provides a step-by-step guide to creating and managing tickets within the osTicket system to demonstrate their lifecycle. Each scenario includes steps for creating tickets, observing their properties, setting their attributes, and working them to completion.
+This project stimulates real-world IT support scenarios, providing a step-by-step guide to creating and managing tickets within the osTicket system to demonstrate their lifecycle. Each scenario includes steps for creating tickets, observing their properties, setting their attributes, and working them to completion.
 
 Admin/Analyst Login Page: [Admin Login](http://localhost/osTicket/scp/login.php)
 
@@ -198,4 +198,4 @@ Although it is a single device, it belongs to a high-level executive, making it 
 <img width="657" height="235" alt="Screenshot 2026-03-01 175625" src="https://github.com/user-attachments/assets/bcb9d58f-58de-4167-b7e1-7e82a5a86d87" />
 
 <h2>Purpose </h2>
-This repository documents the lifecycle of a support ticket within the osTicket help desk system, demonstrating how technical issues are managed in a structured IT support environment. The project walks through the full ticket workflow, including ticket creation, categorization, assignment to support agents, communication with users, and final resolution. The osTicket system is intended as a hands-on learning exercise to simulate real-world help desk operations and provide practical insight into how ticket management systems function within IT infrastructure environments.
+This repository shows the lifecycle of a support ticket within the osTicket help desk system, demonstrating how technical issues are managed in a structured IT support environment. The project walks through the full ticket workflow, including ticket creation, categorization, assignment to support agents, communication with users, and final resolution. The osTicket system is intended as a hands-on learning exercise to simulate real-world help desk operations and provide practical insight into how ticket management systems function within IT infrastructure environments.
