@@ -85,7 +85,7 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
 
 **Access Control Observation** 
 
-After assigning the ticket to a different department, the original agent may lose access since osTicket uses department-based access control. This means agents can only manage a ticket within their assigned department. 
+**After assigning the ticket to a different department, the original agent may lose access since osTicket uses department-based access control. This means agents can only manage a ticket within their assigned department.** 
 
 
 **As a Help Desk Agent (Jane) - Resolution**
@@ -151,8 +151,8 @@ After assigning the ticket to a different department, the original agent may los
 1. Navigate to the End Users osTicket URL: http://localhost/osTicket
 2. Log in as an end-user
 3. Create a new ticket with the following details:
-  - Subject: CFO’s Laptop Will No Longer Turn On
-  - Details: (Provide a brief description of the issue)
+  - **Subject**: CFO’s Laptop Will No Longer Turn On
+  - **Details**: (Provide a brief description of the issue)
 
 <img width="803" height="960" alt="Screenshot 2026-03-01 172716" src="https://github.com/user-attachments/assets/19b2d4ab-c6ca-452f-a7c6-8af68fab8c1e" />
 
@@ -166,16 +166,28 @@ After assigning the ticket to a different department, the original agent may los
   - Assigned To
 
  **Set the ticket properties as follows**:
-  - Priority → Sev-B (or Sev-A depending on urgency)
-  - Department → Support Department
+  - **Priority** → Sev-B (or Sev-A depending on urgency)
+  - **Department** → Support Department
 
 **Why**:
 Although it is a single device, it belongs to a high-level executive, making it business-critical.
 
 <img width="948" height="284" alt="Screenshot 2026-03-01 172814" src="https://github.com/user-attachments/assets/e924a27b-1fb6-47f0-a0e9-9984c6cd0551" />
+
+**The Tickets SLA was updated to Sev-B after issuing a temporary replacement device. This outlined a reduced business impact since operations were restored and no active outage remained.**
+
 <img width="909" height="443" alt="Screenshot 2026-03-01 173132" src="https://github.com/user-attachments/assets/2dceaaa1-469b-4cd1-8b72-ab2711716c8c" />
+
+**The help desk responds to the issue, showing acknowledgment and communicating urgency, recognizing the importance of the users' access to financial reports. Assured the user that troubleshooting was actively in progress.**
+
 <img width="982" height="431" alt="Screenshot 2026-03-01 173459" src="https://github.com/user-attachments/assets/028292b1-a61d-421c-8338-e0a25562e2c5" />
+
+**Performed power troubleshooting and determined the device had a hardware failure. Issued a temporary replacement laptop to restore business operations while the original device was sent for further diagnostics and repair.**
+
 <img width="960" height="781" alt="Screenshot 2026-03-01 175356" src="https://github.com/user-attachments/assets/dc09ccbe-9407-4a50-b033-fe6dce9dcc2b" />
+
+**The ticket is prepared for closure after restoring user access and ensuring business continuity.**
+
 <img width="657" height="235" alt="Screenshot 2026-03-01 175625" src="https://github.com/user-attachments/assets/bcb9d58f-58de-4167-b7e1-7e82a5a86d87" />
 
 <h2>Purpose </h2>
