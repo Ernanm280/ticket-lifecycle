@@ -48,8 +48,8 @@ Prevents tickets from being automatically routed to an unused department, ensuri
 1. Navigate to the End Users osTicket URL: [http://localhost/osTicket](http://localhost/osTicket)
 2. Log in as an end-user
 3. Create a new ticket with the following details:
-  - Subject: Entire Mobile/Online Banking System is down
-  - Details: (Provide a brief description of the issue)
+  - **Subject**: Entire Mobile/Online Banking System is down
+  - **Details**: (Provide a brief description of the issue)
  
 **Why this matters**:
 This stimulates a high-impact outage, affecting multiple users and requiring immediate escalation.
