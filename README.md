@@ -32,8 +32,8 @@ End Users osTicket URL: [End Users Ticketing Page](http://localhost/osTicket)
 **Disable/Delete Maintenance Department so tickets don't end up there**
 
 To do this:
-  - Navigate to Admin Panel → Agents → Departments
-  - Click on **Maintenance** and **delete**
+  - Navigated to Admin Panel → Agents → Departments
+  - Clicked on **Maintenance** and **delete**
 
 **Why:**
 Prevents tickets from being automatically routed to an unused department, ensuring proper ticket flow and visibility.
@@ -45,9 +45,9 @@ Prevents tickets from being automatically routed to an unused department, ensuri
 <h3> Scenario 1: Entire Mobile/Online Banking System is Down</h3>
 
 **As an End-User**
-1. Navigate to the End Users osTicket URL: [http://localhost/osTicket](http://localhost/osTicket)
-2. Log in as an end-user
-3. Create a new ticket with the following details:
+1. Navigated to the End Users osTicket URL: [http://localhost/osTicket](http://localhost/osTicket)
+2. Logged in as an end-user
+3. Created a new ticket with the following details:
   - **Subject**: Entire Mobile/Online Banking System is down
   - **Details**: (Provide a brief description of the issue)
  
@@ -57,15 +57,15 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
 <img width="833" height="961" alt="Screenshot 2026-02-27 204852" src="https://github.com/user-attachments/assets/2b46feff-4292-48fb-ac4d-b6d736fef038" />
 
 **As a Help Desk Agent (John) - Ticket Triage**
-1. Navigate to the Admin/Analyst Login Page: http://localhost/osTicket/scp/login.php
-2. Log in as "john"
+1. Navigated to the Admin/Analyst Login Page: http://localhost/osTicket/scp/login.php
+2. Logged in as "john"
 
 <img width="461" height="362" alt="Screenshot 2026-02-27 221342" src="https://github.com/user-attachments/assets/ddb6d164-9fb5-4e3a-ae92-274099aee6a3" />
 
 <br>
 <br>
 
-3. Locate the newly created ticket and observe its properties:
+3. Located the newly created ticket and observe its properties:
   - Priority
   - Department
   - SLA
@@ -110,16 +110,15 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
 <br>
 <br>
 
-**The Ticket was escalated to the SysAdmins team, where the root cause was identified as a configuration issue that caused the online banking system to go down.**
+**The Ticket was escalated to the SysAdmins team, where the root cause was identified as a configuration issue that caused the online banking system to go down. After restarting the server, the service was successfully restored, allowing the workflow to resume.**
+**
 
 <img width="971" height="268" alt="Screenshot 2026-02-27 220141" src="https://github.com/user-attachments/assets/fe362cf6-6018-4559-936b-90f90af81e9c" />
-
-<br>
-<br>
-
-**After restarting the server, the service was successfully restored, allowing the workflow to resume.**
-
 <img width="805" height="324" alt="Screenshot 2026-02-27 220431" src="https://github.com/user-attachments/assets/5ac9b35d-5bfb-4bad-9c7a-06cd372b6143" />
+
+<br>
+<br>
+
 **The fix was confirmed with the user, and the ticket was marked as resolved and closed.**
 
 <h3>Scenario 2: Accounting Department Needs Adobe Upgrade, Broken</h3>
