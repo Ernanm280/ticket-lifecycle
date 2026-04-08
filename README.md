@@ -62,6 +62,9 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
 
 <img width="461" height="362" alt="Screenshot 2026-02-27 221342" src="https://github.com/user-attachments/assets/ddb6d164-9fb5-4e3a-ae92-274099aee6a3" />
 
+<br>
+<br>
+
 3. Locate the newly created ticket and observe its properties:
   - Priority
   - Department
@@ -69,6 +72,9 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
   - Assigned To
 
 <img width="946" height="436" alt="Screenshot 2026-02-27 213429" src="https://github.com/user-attachments/assets/ff1fe950-2759-4482-a9c5-c3369dcfef9c" />
+
+<br>
+<br>
 
 **Set the ticket properties as follows**:
   - Priority → Sev-A (1 hour SLA)
@@ -82,6 +88,9 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
 
 <img width="640" height="260" alt="Screenshot 2026-02-27 212127" src="https://github.com/user-attachments/assets/36a84d49-3736-4a8e-856e-94215669488e" />
 <img width="622" height="218" alt="Screenshot 2026-03-01 181306" src="https://github.com/user-attachments/assets/715bb78b-698c-4ba9-ab10-18d8b3be2d65" />
+
+<br>
+<br>
 
 **Access Control Observation** 
 
@@ -98,12 +107,17 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
 
 <img width="425" height="335" alt="Screenshot 2026-02-27 221709" src="https://github.com/user-attachments/assets/4c734c5a-8593-4cb9-a99f-eefafb483f32" />
 
+<br>
+<br>
+
 **The Ticket was escalated to the SysAdmins team, where the root cause was identified as a configuration issue that caused the online banking system to go down.**
 
 <img width="971" height="268" alt="Screenshot 2026-02-27 220141" src="https://github.com/user-attachments/assets/fe362cf6-6018-4559-936b-90f90af81e9c" />
 
-**After restarting the server, the service was successfully restored, allowing the workflow to resume.**
+<br>
+<br>
 
+**After restarting the server, the service was successfully restored, allowing the workflow to resume.**
 
 <img width="805" height="324" alt="Screenshot 2026-02-27 220431" src="https://github.com/user-attachments/assets/5ac9b35d-5bfb-4bad-9c7a-06cd372b6143" />
 **The fix was confirmed with the user, and the ticket was marked as resolved and closed.**
@@ -119,6 +133,9 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
 
 <img width="833" height="968" alt="Screenshot 2026-02-27 223047" src="https://github.com/user-attachments/assets/8cbea6f2-9e21-4b4c-b190-4f4163c254da" />
 
+<br>
+<br>
+
 **As a Help Desk Agent (John)**
 - Navigate to the Admin/Analyst Login Page: http://localhost/osTicket/scp/login.php
 - Log in as "John."
@@ -131,6 +148,9 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
 <img width="461" height="362" alt="Screenshot 2026-02-27 221342" src="https://github.com/user-attachments/assets/d5f46852-101f-4b55-91cc-8bb76fd37a10" />
 <img width="950" height="584" alt="Screenshot 2026-02-27 223255" src="https://github.com/user-attachments/assets/5c1c07ff-278b-416a-aefd-ab80735a1841" />
 
+<br>
+<br>
+
 - Set the ticket properties as follows:
   - Priority → Sev-B (4 hours SLA)
   - Department → Support Department
@@ -139,13 +159,22 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
 
 <img width="801" height="398" alt="Screenshot 2026-02-27 223530" src="https://github.com/user-attachments/assets/12c374b0-fff5-4f37-93f5-0956ac357741" />
 
+<br>
+<br>
+
 **Acknowledged the user's issue and provided a preliminary assessment. Identified that the problem may be due to an outdated version of Adobe Acrobat and communicated the plan to verify and perform an update. Clear expectations were set to ensure commitment and reliability.**
 
 <img width="955" height="634" alt="Screenshot 2026-02-27 223804" src="https://github.com/user-attachments/assets/237711b3-8864-4e35-86df-9d4e2ab823a1" />
 
+<br>
+<br>
+
 **Once the issue is resolved, the helpdesk confirmed that Adobe Acrobat has been succesfully updated and tested. The end user was asked to verify functionality to ensure the issue has been resolved.**
 
 <img width="946" height="619" alt="Screenshot 2026-02-27 223852" src="https://github.com/user-attachments/assets/41f89637-2e96-4acf-b6a0-15d6d5e3609e" />
+
+<br>
+<br>
 
 **The ticket is marked as resolved, meaning the ticket is now closed.**
 
@@ -162,6 +191,9 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
   - **Details**: (Provide a brief description of the issue)
 
 <img width="803" height="960" alt="Screenshot 2026-03-01 172716" src="https://github.com/user-attachments/assets/19b2d4ab-c6ca-452f-a7c6-8af68fab8c1e" />
+
+<br>
+<br>
 
 **As a Help Desk Agent (John)**
 1. Navigate to the Admin/Analyst Login Page: http://localhost/osTicket/scp/login.php
@@ -181,17 +213,28 @@ Although it is a single device, it belongs to a high-level executive, making it 
 
 <img width="948" height="284" alt="Screenshot 2026-03-01 172814" src="https://github.com/user-attachments/assets/e924a27b-1fb6-47f0-a0e9-9984c6cd0551" />
 
+<br>
+<br>
 **The Tickets SLA was updated to Sev-B after issuing a temporary replacement device. This outlined a reduced business impact since operations were restored and no active outage remained.**
 
 <img width="909" height="443" alt="Screenshot 2026-03-01 173132" src="https://github.com/user-attachments/assets/2dceaaa1-469b-4cd1-8b72-ab2711716c8c" />
+
+<br>
+<br>
 
 **The help desk responds to the issue, showing acknowledgment and communicating urgency, recognizing the importance of the users' access to financial reports. Assured the user that troubleshooting was actively in progress.**
 
 <img width="982" height="431" alt="Screenshot 2026-03-01 173459" src="https://github.com/user-attachments/assets/028292b1-a61d-421c-8338-e0a25562e2c5" />
 
+<br>
+<br>
+
 **Performed power troubleshooting and determined the device had a hardware failure. Issued a temporary replacement laptop to restore business operations while the original device was sent for further diagnostics and repair.**
 
 <img width="960" height="781" alt="Screenshot 2026-03-01 175356" src="https://github.com/user-attachments/assets/dc09ccbe-9407-4a50-b033-fe6dce9dcc2b" />
+
+<br>
+<br>
 
 **The ticket is prepared for closure after restoring user access and ensuring business continuity.**
 
