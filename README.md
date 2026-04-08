@@ -35,8 +35,8 @@ To do this:
   - Navigated to Admin Panel → Agents → Departments
   - Clicked on **Maintenance** and **delete**
 
-**Why:**
-Prevents tickets from being automatically routed to an unused department, ensuring proper ticket flow and visibility.
+> [!NOTE]
+> Prevents tickets from being automatically routed to an unused department, ensuring proper ticket flow and visibility.
 
 <img width="945" height="382" alt="Screenshot 2026-02-27 203904" src="https://github.com/user-attachments/assets/e7c484ea-61ae-4dec-8ec6-268e32d3d2cd" />
 
@@ -51,10 +51,13 @@ Prevents tickets from being automatically routed to an unused department, ensuri
   - **Subject**: Entire Mobile/Online Banking System is down
   - **Details**: (Provide a brief description of the issue)
  
-**Why this matters**:
-This stimulates a high-impact outage, affecting multiple users and requiring immediate escalation.
+> [!NOTE]
+> This stimulates a high-impact outage, affecting multiple users and requiring immediate escalation.
  
 <img width="833" height="961" alt="Screenshot 2026-02-27 204852" src="https://github.com/user-attachments/assets/2b46feff-4292-48fb-ac4d-b6d736fef038" />
+
+<br>
+<br>
 
 **As a Help Desk Agent (John) - Ticket Triage**
 1. Navigated to the Admin/Analyst Login Page: http://localhost/osTicket/scp/login.php
@@ -65,11 +68,13 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
 <br>
 <br>
 
-3. Located the newly created ticket and observe its properties:
+3. Locate the newly created ticket and observe its properties:
   - Priority
   - Department
   - SLA
   - Assigned To
+
+Observed that John can only view the ticket and leave an internal note.
 
 <img width="946" height="436" alt="Screenshot 2026-02-27 213429" src="https://github.com/user-attachments/assets/ff1fe950-2759-4482-a9c5-c3369dcfef9c" />
 
@@ -79,12 +84,10 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
 **Set the ticket properties as follows**:
   - Priority → Sev-A (1 hour SLA)
   - Department → Online Banking Department
-- Attempt to observe the ticket again as "john" and note whether you can view or change it
 
-**Why**: 
-- Sev-A is used for critical outages impacting business operations
-- Assigning to a department ensures the correct team handles the issue
-
+> [!NOTE]
+>- Sev-A is used for critical outages impacting business operations
+>- Assigning to a department ensures the correct team handles the issue
 
 <img width="640" height="260" alt="Screenshot 2026-02-27 212127" src="https://github.com/user-attachments/assets/36a84d49-3736-4a8e-856e-94215669488e" />
 <img width="622" height="218" alt="Screenshot 2026-03-01 181306" src="https://github.com/user-attachments/assets/715bb78b-698c-4ba9-ab10-18d8b3be2d65" />
@@ -114,12 +117,13 @@ This stimulates a high-impact outage, affecting multiple users and requiring imm
 **
 
 <img width="971" height="268" alt="Screenshot 2026-02-27 220141" src="https://github.com/user-attachments/assets/fe362cf6-6018-4559-936b-90f90af81e9c" />
-<img width="805" height="324" alt="Screenshot 2026-02-27 220431" src="https://github.com/user-attachments/assets/5ac9b35d-5bfb-4bad-9c7a-06cd372b6143" />
 
 <br>
 <br>
 
 **The fix was confirmed with the user, and the ticket was marked as resolved and closed.**
+
+<img width="805" height="324" alt="Screenshot 2026-02-27 220431" src="https://github.com/user-attachments/assets/5ac9b35d-5bfb-4bad-9c7a-06cd372b6143" />
 
 <h3>Scenario 2: Accounting Department Needs Adobe Upgrade, Broken</h3>
 
@@ -214,6 +218,7 @@ Although it is a single device, it belongs to a high-level executive, making it 
 
 <br>
 <br>
+
 **The Tickets SLA was updated to Sev-B after issuing a temporary replacement device. This outlined a reduced business impact since operations were restored and no active outage remained.**
 
 <img width="909" height="443" alt="Screenshot 2026-03-01 173132" src="https://github.com/user-attachments/assets/2dceaaa1-469b-4cd1-8b72-ab2711716c8c" />
