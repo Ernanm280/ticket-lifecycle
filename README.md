@@ -27,6 +27,9 @@ End Users osTicket URL: [End Users Ticketing Page](http://localhost/osTicket)
 - Working the Issue
 - Resolution
 
+> [!NOTE] 
+> This project builds upon a prior lab where the Azure environment, virtual machine, osTicket and various users and teams were created. <br /> [Step 2: osTicket: Post-Installation Configuration](https://github.com/Ernanm280/post-install-config)
+
 <h2>Before you Start</h2>
 
 **Disable/Delete Maintenance Department so tickets don't end up there**
