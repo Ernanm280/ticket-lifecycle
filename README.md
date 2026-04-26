@@ -228,7 +228,7 @@ The Tickets SLA was updated to Sev-B after issuing a temporary replacement devic
 <br>
 <br>
 
-The help desk responds to the issue, showing acknowledgment and communicating urgency, recognizing the importance of the users' access to financial reports. Assured the user that troubleshooting was actively in progress.
+The help desk responds to the issue, showing acknowledgment and communicating urgency, recognizing the importance of the user's access to financial reports. Assured the user that troubleshooting was actively in progress.
 
 <img width="982" height="431" alt="Screenshot 2026-03-01 173459" src="https://github.com/user-attachments/assets/028292b1-a61d-421c-8338-e0a25562e2c5" />
 
