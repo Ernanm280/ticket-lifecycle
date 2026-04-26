@@ -174,7 +174,7 @@ Acknowledged the user's issue and provided a preliminary assessment. Identified 
 <br>
 <br>
 
-Once the issue is resolved, the helpdesk confirmed that Adobe Acrobat has been successfully updated and tested. The end user was asked to verify functionality to ensure the issue has been resolved.
+Once the issue was resolved, we confirmed that Adobe Acrobat had been successfully updated and tested. The end user was asked to verify functionality to ensure the issue has been resolved.
 
 <img width="946" height="619" alt="Screenshot 2026-02-27 223852" src="https://github.com/user-attachments/assets/41f89637-2e96-4acf-b6a0-15d6d5e3609e" />
 
