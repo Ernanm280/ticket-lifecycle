@@ -100,7 +100,7 @@ Observed that John can only view the ticket and leave an internal note.
 
 **Access Control Observation** 
 
-**After assigning the ticket to a different department, the original agent may lose access since osTicket uses department-based access control. This means agents can only manage a ticket within their assigned department.**
+After assigning the ticket to a different department, the original agent may lose access since osTicket uses department-based access control. This means agents can only manage a ticket within their assigned department.
 
 
 **As a Help Desk Agent (Jane) - Resolution**
@@ -116,15 +116,14 @@ Observed that John can only view the ticket and leave an internal note.
 <br>
 <br>
 
-**The Ticket was escalated to the SysAdmins team, where the root cause was identified as a configuration issue that caused the online banking system to go down. After restarting the server, the service was successfully restored, allowing the workflow to resume.**
-**
+The Ticket was escalated to the SysAdmins team, where the root cause was identified as a configuration issue that caused the online banking system to go down. After restarting the server, the service was successfully restored, allowing the workflow to resume.
 
 <img width="971" height="268" alt="Screenshot 2026-02-27 220141" src="https://github.com/user-attachments/assets/fe362cf6-6018-4559-936b-90f90af81e9c" />
 
 <br>
 <br>
 
-**The fix was confirmed with the user, and the ticket was marked as resolved and closed.**
+The fix was confirmed with the user, and the ticket was marked as resolved and closed.
 
 <img width="805" height="324" alt="Screenshot 2026-02-27 220431" src="https://github.com/user-attachments/assets/5ac9b35d-5bfb-4bad-9c7a-06cd372b6143" />
 
@@ -161,28 +160,28 @@ Observed that John can only view the ticket and leave an internal note.
   - Priority → Sev-B (4 hours SLA)
   - Department → Support Department
 
-**Adjusted the Service Level Agreement (SLA) to Sev-B based on the ticket's business impact. This ensures the issue is prioritized correctly and handled within defined response and resolution timeframes**
+Adjusted the Service Level Agreement (SLA) to Sev-B based on the ticket's business impact. This ensures the issue is prioritized correctly and handled within defined response and resolution timeframes
 
 <img width="801" height="398" alt="Screenshot 2026-02-27 223530" src="https://github.com/user-attachments/assets/12c374b0-fff5-4f37-93f5-0956ac357741" />
 
 <br>
 <br>
 
-**Acknowledged the user's issue and provided a preliminary assessment. Identified that the problem may be due to an outdated version of Adobe Acrobat and communicated the plan to verify and perform an update. Clear expectations were set to ensure commitment and reliability.**
+Acknowledged the user's issue and provided a preliminary assessment. Identified that the problem may be due to an outdated version of Adobe Acrobat and communicated the plan to verify and perform an update. Clear expectations were set to ensure commitment and reliability.
 
 <img width="955" height="634" alt="Screenshot 2026-02-27 223804" src="https://github.com/user-attachments/assets/237711b3-8864-4e35-86df-9d4e2ab823a1" />
 
 <br>
 <br>
 
-**Once the issue is resolved, the helpdesk confirmed that Adobe Acrobat has been succesfully updated and tested. The end user was asked to verify functionality to ensure the issue has been resolved.**
+Once the issue is resolved, the helpdesk confirmed that Adobe Acrobat has been successfully updated and tested. The end user was asked to verify functionality to ensure the issue has been resolved.
 
 <img width="946" height="619" alt="Screenshot 2026-02-27 223852" src="https://github.com/user-attachments/assets/41f89637-2e96-4acf-b6a0-15d6d5e3609e" />
 
 <br>
 <br>
 
-**The ticket is marked as resolved, meaning the ticket is now closed.**
+The ticket is marked as resolved, meaning the ticket is now closed.
 
 <img width="803" height="316" alt="Screenshot 2026-02-27 224103" src="https://github.com/user-attachments/assets/1c62d1a2-82cd-4718-8bd4-04129c63c12a" />
 
@@ -222,28 +221,28 @@ Although it is a single device, it belongs to a high-level executive, making it 
 <br>
 <br>
 
-**The Tickets SLA was updated to Sev-B after issuing a temporary replacement device. This outlined a reduced business impact since operations were restored and no active outage remained.**
+The Tickets SLA was updated to Sev-B after issuing a temporary replacement device. This outlined a reduced business impact since operations were restored and no active outage remained.
 
 <img width="909" height="443" alt="Screenshot 2026-03-01 173132" src="https://github.com/user-attachments/assets/2dceaaa1-469b-4cd1-8b72-ab2711716c8c" />
 
 <br>
 <br>
 
-**The help desk responds to the issue, showing acknowledgment and communicating urgency, recognizing the importance of the users' access to financial reports. Assured the user that troubleshooting was actively in progress.**
+The help desk responds to the issue, showing acknowledgment and communicating urgency, recognizing the importance of the users' access to financial reports. Assured the user that troubleshooting was actively in progress.
 
 <img width="982" height="431" alt="Screenshot 2026-03-01 173459" src="https://github.com/user-attachments/assets/028292b1-a61d-421c-8338-e0a25562e2c5" />
 
 <br>
 <br>
 
-**Performed power troubleshooting and determined the device had a hardware failure. Issued a temporary replacement laptop to restore business operations while the original device was sent for further diagnostics and repair.**
+Performed power troubleshooting and determined the device had a hardware failure. Issued a temporary replacement laptop to restore business operations while the original device was sent for further diagnostics and repair.
 
 <img width="960" height="781" alt="Screenshot 2026-03-01 175356" src="https://github.com/user-attachments/assets/dc09ccbe-9407-4a50-b033-fe6dce9dcc2b" />
 
 <br>
 <br>
 
-**The ticket is prepared for closure after restoring user access and ensuring business continuity.**
+The ticket is prepared for closure after restoring user access and ensuring business continuity.
 
 <img width="657" height="235" alt="Screenshot 2026-03-01 175625" src="https://github.com/user-attachments/assets/bcb9d58f-58de-4167-b7e1-7e82a5a86d87" />
 
