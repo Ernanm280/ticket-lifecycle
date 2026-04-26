@@ -100,7 +100,7 @@ Observed that John can only view the ticket and leave an internal note.
 
 **Access Control Observation** 
 
-**After assigning the ticket to a different department, the original agent may lose access since osTicket uses department-based access control. This means agents can only manage a ticket within their assigned department.** 
+**After assigning the ticket to a different department, the original agent may lose access since osTicket uses department-based access control. This means agents can only manage a ticket within their assigned department.**
 
 
 **As a Help Desk Agent (Jane) - Resolution**
